@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecg-age-retention"
+version = "1.0.0"
+description = "Evaluation tools for age-information retention in ECG-based survival models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "CC-BY-NC-4.0"}
+keywords = [
+    "electrocardiography",
+    "survival analysis",
+    "calibration",
+    "representation learning",
+    "age",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "License :: Free for non-commercial use",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+]
+
+[project.optional-dependencies]
+models = ["torch>=1.9"]
+examples = ["matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

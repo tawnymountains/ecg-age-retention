@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "ecg-age-retention: evaluation tools for age-information retention in ECG-based survival models"
+type: software
+version: "1.0.0"
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/tawnymountains/ecg-age-retention"
+authors:
+  - family-names: Zhao
+    given-names: Zijian
+    orcid: "https://orcid.org/0009-0007-9554-1676"
+  - family-names: Lin
+    given-names: Zihuai
+    orcid: "https://orcid.org/0000-0002-3299-0411"
+  - family-names: Pang
+    given-names: Gaoyang
+    orcid: "https://orcid.org/0000-0002-0948-4641"
+  - family-names: Chen
+    given-names: Wei
+    orcid: "https://orcid.org/0000-0003-3720-718X"
+  - family-names: Vucetic
+    given-names: Branka
+    orcid: "https://orcid.org/0000-0002-2700-2001"
+preferred-citation:
+  type: article
+  status: submitted
+  title: "Toward Reliable ECG-based Survival Models via Evaluating Age-Information Retention"
+  authors:
+    - family-names: Zhao
+      given-names: Zijian
+    - family-names: Lin
+      given-names: Zihuai
+    - family-names: Pang
+      given-names: Gaoyang
+    - family-names: Chen
+      given-names: Wei
+    - family-names: Vucetic
+      given-names: Branka

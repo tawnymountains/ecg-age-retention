@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Data, features, checkpoints and run outputs are never part of this repository
+/data/
+/outputs/
+/runs/
+/checkpoints/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.parquet
+*.dat
+*.hea
+*.mat
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
